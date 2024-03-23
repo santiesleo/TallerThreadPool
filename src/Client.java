@@ -32,7 +32,7 @@ public class Client {
             while (true) {
                 socket.close();
 
-                System.out.println("\nDo you want to connect again? 1: Yes | 0: No");
+                System.out.println("\nQuieres conectarte otra vez? 1: Si | 0: No");
                 String res = scanner.nextLine();
 
                 if (res.equalsIgnoreCase("1")) {

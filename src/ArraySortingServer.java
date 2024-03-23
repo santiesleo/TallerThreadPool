@@ -10,7 +10,7 @@ public class ArraySortingServer {
     public ArraySortingServer() {
         try {
             serverSocket = new ServerSocket(PORT);
-            threadPool = Executors.newCachedThreadPool(); // Usamos un ThreadPool dinámico
+            threadPool = Executors.newCachedThreadPool(); // ThreadPool dinámico
         } catch (IOException e) {
             e.printStackTrace();
         }
